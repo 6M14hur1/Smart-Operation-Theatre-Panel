@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="439dp"
+        android:layout_height="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:editable="false"
+        android:inputType="none" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/n1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/n2"
+            android:layout_marginStart="500dp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/n2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="175dp"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/n3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/n1"
+            android:layout_marginEnd="512dp"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/n4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/n1"
+            android:layout_marginTop="289dp"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/n5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignTop="@+id/n4"
+            android:layout_centerHorizontal="true"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/n6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/n3"
+            android:layout_alignTop="@+id/n4"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/n7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/n8"
+            android:layout_below="@+id/previous"
+            android:layout_marginTop="-74dp"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/n8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/n1"
+            android:layout_marginEnd="132dp"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/n9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/n3"
+            android:layout_alignTop="@+id/n7"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/n0"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="144dp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/dele"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/n0"
+            android:layout_alignEnd="@+id/n3"
+            android:text="del" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/n0"
+            android:layout_alignStart="@+id/n1"
+            android:text="call" />
+
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="74dp"
+            android:layout_marginStart="111dp"
+            android:onClick="previous"
+            android:text="Back" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
